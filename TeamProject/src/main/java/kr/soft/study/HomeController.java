@@ -36,4 +36,11 @@ public class HomeController {
 		return "home";
 	}
 	
+	
+	@RequestMapping("/home")
+	public String write_view(Model model) {
+		System.out.println("»Ï¿∏∑Œ");
+		return "home2";
+	}
+	
 }
